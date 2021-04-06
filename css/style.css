@@ -1,0 +1,15 @@
+
+html {
+  font-size: 100%;
+}
+body {
+  font-family: Verdana, sans-serif;
+  line-height: 1.7;
+  color: #fff;
+  background-color:#222;
+}
+
+a {
+	text-decoration: none;
+}
+
