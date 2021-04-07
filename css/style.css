@@ -1,15 +1,41 @@
+@charset "UTF-8";
 
 html {
   font-size: 100%;
+  /* max-width: 800px;
+  min-width: ;
+  margin: 0 auto; */
 }
 body {
   font-family: Verdana, sans-serif;
   line-height: 1.7;
   color: #fff;
   background-color:#222;
+  /* width: 750px;
+  margin: 10px auto; */
 }
+
+
 
 a {
 	text-decoration: none;
 }
 
+.wrapper {
+	max-width: 1100px;
+	margin: 0 auto ;
+	padding: 0 4% /* スマホ用余白指定 */
+}
+
+.header {
+
+}
+
+.nav {
+  display: flex;
+	justify-content: space-around;
+}
+
+.nav > p {
+  display: flex;
+}
