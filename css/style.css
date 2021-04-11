@@ -27,6 +27,13 @@ a {
 	padding: 0 4% /* スマホ用余白指定 */
 }
 
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+  /* grid-template-rows: repeat(auto-fill,minmax(250px,1fr)); */
+  grid-gap: 30px;
+}
+
 .header {
 
 }
@@ -39,3 +46,29 @@ a {
 .nav > p {
   display: flex;
 }
+
+
+.works {
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+.work {
+  border: tomato 1px solid;
+  padding: 5px 10px;
+}
+
+.work > p {
+  
+}
+
+/* #image {
+  width: 100%;
+  height: 100%;
+} */
+
+/* .work > img {
+    width: 100%; 
+    height:100%; 
+    object-fit: scale-down;
+} */
