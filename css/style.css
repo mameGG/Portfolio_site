@@ -10,15 +10,21 @@ body {
   font-family: Verdana, sans-serif;
   line-height: 1.7;
   color: #fff;
-  background-color:#222;
-  /* width: 750px;
-  margin: 10px auto; */
+  background-color:rgb(41, 66, 88);
+  letter-spacing: 0.3rem;
 }
 
-
+.sub-bg {
+  background-color: rgb(22, 38, 53);
+}
 
 a {
 	text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: rgb(215, 238, 111);
 }
 
 .wrapper {
@@ -35,16 +41,19 @@ a {
 }
 
 .header {
-
+ height: 80px;
+ /* margin: 10px auto; */
 }
 
 .nav {
   display: flex;
 	justify-content: space-around;
+  margin: 10px;
 }
 
 .nav > p {
   display: flex;
+  text-align: end;
 }
 
 
@@ -54,21 +63,24 @@ a {
 }
 
 .work {
-  border: tomato 1px solid;
   padding: 5px 10px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgb(22, 38, 53);
 }
 
 .work > p {
   
 }
 
-/* #image {
-  width: 100%;
-  height: 100%;
-} */
+#image {
+  text-align: center;
+}
 
-/* .work > img {
-    width: 100%; 
-    height:100%; 
-    object-fit: scale-down;
-} */
+#image > img {
+  border-radius: 10px;
+  vertical-align: top;
+  width: 200px; 
+  height: 200px;
+}
+
