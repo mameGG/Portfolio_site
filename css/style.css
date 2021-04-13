@@ -56,6 +56,18 @@ a:hover {
   text-align: end;
 }
 
+#thum {
+  margin: 50px auto;
+}
+
+#thum > img {
+  box-shadow: 30px 20px 0 rgb(22, 38, 53);
+}
+
+.hobby > ul {
+  list-style-type: none;
+  
+}
 
 .works {
   /* width: 100%; */
