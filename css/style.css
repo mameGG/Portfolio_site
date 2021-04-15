@@ -15,7 +15,7 @@ body {
 }
 
 .sub-bg {
-  background-color: rgb(22, 38, 53);
+  background-color: rgb(28, 47, 65);
 }
 
 a {
@@ -61,7 +61,7 @@ a:hover {
 }
 
 #thum > img {
-  box-shadow: 30px 20px 0 rgb(22, 38, 53);
+  box-shadow: 30px 20px 0 rgb(28, 47, 65);
 }
 
 article {
@@ -70,12 +70,46 @@ article {
 
 .hobby {
   padding: 40px 25px;
+  margin: 10px auto;
+  background-color: rgb(28, 47, 65);
 }
 
-.hobby > ul {
-  list-style-type: none;
-
+.accordion {
+  width: 200px;
+  margin: 0 auto;
 }
+.menu {
+  background-color: rgb(41, 66, 88);
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.menu:hover,
+.menu:active,
+.menu.is-active {
+  background-color: rgb(41, 66, 88);
+}
+.contents {
+  text-align: center;
+  line-height: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+ 
+.contents.is-open {
+  border: 1px solid rgb(41, 66, 88);
+  padding: 10px;
+  line-height: normal;
+  height: auto;
+  opacity: 1;
+}
+
+
 
 .works {
   /* width: 100%; */
@@ -86,7 +120,7 @@ article {
   padding: 5px 10px;
   text-align: center;
   border-radius: 15px;
-  background-color: rgb(22, 38, 53);
+  background-color: rgb(28, 47, 65);
 }
 
 .work > p {
