@@ -1,0 +1,175 @@
+body {
+  background-color: rgb(238, 232, 199);
+}
+
+.sub-color {
+  background-color: rgb(226, 219, 177);
+}
+
+.ac-color {
+  background-color: rgb(212, 191, 133);
+}
+
+.header {
+  border: 2px solid rgb(212, 191, 133);
+  /* height: 160px; */
+  display: flex;
+  font-size: 14px;
+  /* text-align: ; */
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  align-items: flex-end;
+  position: sticky;/*固定する*/
+  position: -webkit-sticky;/*Safari用ベンダープレフィックス*/
+  top: 0;/*ブラウザの上からの距離はゼロ*/
+}
+
+.header p {
+  margin: 10px auto;
+}
+
+#main-content {
+  /* border: 1px solid tomato; */
+  text-align: center;
+}
+
+#sub-title {
+  /* display: inline-block; */
+  margin-top: 0;
+  border-bottom: 2px solid rgb(218, 209, 159);
+  font-size: 22px;
+  text-align: center;
+}
+
+.team-main {
+  /* text-align: center; */
+  height: 250px;
+  transition: all 1.2s;
+  display: inline-block;
+}
+
+.team-icon {
+  display: block;
+  margin: 80px auto 20px;
+  width: 270px;
+  height: 300px;
+}
+
+.team-logo {
+  font-size: 100px;
+  /* border-bottom: 3px solid rgb(218, 209, 159); */
+  font-family: 'Franklin Gothic Medium';
+  display: inline-block;
+  /* margin: px; */
+  margin-left: 300px;
+}
+
+.team-main:hover {
+  transform: translate(-15%, 0px);
+}
+
+.team-main:hover .team-logo {
+  text-shadow: 10px 20px 0 rgb(204, 181, 124);
+  transition: all 1.3s;
+}
+
+.team-main:hover .team-intro {
+  box-shadow: 10px 15px 0 rgb(204, 181, 124);
+  transition: all 1.3s;
+}
+
+.team-intro {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 67px;
+  margin-bottom: 67px;
+  color: rgb(238, 232, 199);
+  width: 260px;
+  height: 110px;
+  border-radius: 20px;
+  vertical-align: bottom;
+  padding: 5px;
+}
+
+.team-main:hover .team-intro {
+  color: rgb(0, 0, 0);
+  transition: all 1.2s;
+  background-color: rgb(226, 219, 177);
+}
+
+.title {
+  /* text-align: left; */
+  padding-left: 10%;
+  margin-top: 140px;
+  font-size: 55px;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 30px 60px;
+  /* max-width: 1200px; */
+  /* width: 100%; */
+  border-radius: 10px;
+}
+
+.profile {
+  display: inline-block;
+  height: 330px;
+  width: 330px;
+  margin: 40px 50px 50px;
+  padding: 15px;
+  border-radius: 5%;
+  /* box-shadow: 20px 30px 0 rgb(177, 157, 105); */
+  /* background-color: rgb(212, 191, 133); */
+  color: rgb(248, 250, 255);
+}
+
+.profile p {
+  /* font-size: 30px; */
+  color: rgb(226, 219, 177);
+  margin: 8px auto;
+}
+
+.profile:hover {
+  background-color: rgb(212, 191, 133);
+  box-shadow: 20px 30px 0 rgb(177, 157, 105);
+  transition: all 1.0s;
+}
+
+.profile:hover p {
+  color: rgb(82, 61, 4);;
+  transition: all 1.2s;
+}
+
+.profile:hover img {
+  box-shadow: 5px 5px 0 rgb(177, 157, 105);
+  transition: all 1.0s;
+}
+
+.member-icon {
+  height: 160px;
+  width: 160px;
+  margin-left: 85px;
+  /* width: 100%; */
+  border-radius: 50%;
+}
+
+.member-name {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(63, 46, 2);
+  margin: 0 auto;
+}
+
+.footer {
+  /* border: 1px solid tomato; */
+  height: 60px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
